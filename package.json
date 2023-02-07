@@ -1,0 +1,13 @@
+{
+  "name": "figma_project",
+  "homepage": "https://katyi.github.io/Figma_project",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}

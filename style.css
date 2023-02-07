@@ -1,107 +1,68 @@
-/*Обнуление*/
-*,
-*::before
-*::after {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-a {
-  text-decoration: none;
-}
-ul,
-ol,
-li {
-  list-style: none;
-}
-img {
-  vertical-align: top;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: inherit;
-  font-size: inherit;
-}
-html,
 body {
+  margin: 0px 0px 0px 0px;
+  width: 100%;
   height: 100%;
-  background: #0E1014;
+  line-height: 1;
+  background: #4077F3;
   font-size: 16px;
+  color: #E4E5EA;
+  /* display: flex; */
 }
-/* -------------------------------------------------------------------------------------------------------------------- */
 .wrapper {
   max-width: 1440px;
-  max-height: 980px;
+  /* max-height: 980px; */
+  width: 100%;
+  height: 100%;
+  background: #0E1014;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* position: absolute; */
+  /* width: 100%;
+  height: 100%; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
 }
-@media (max-width: 320px) {
+/* @media (max-width: 390px) {
   .wrapper {
-    min-width: calc(320/304*100%);
-    min-height: calc(1115/980*100%);
+    margin: 0px 0 0 0;
   }
-}
+} */
 /* --------------------HEADER------------------------------------------------------------------------------------------- */
 .header {
   position: absolute;
+  max-width: 1140px;
+  max-height: 73px;
   width: calc(1140 / 1440 *100%);
   height: calc(73 / 980 * 100%);
-  left: calc(150 / 1440 * 100%);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
   top: calc(46 / 1440 * 100%);
   z-index: 50;
 }
-@media (max-width: 320px) {
+@media (max-width: 1000px) {
+  .img2 {
+    /* max-width: 200%; */
+  }
+}
+@media (max-width: 390px) {
+  .wrapper {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 100%;
+  }
   .header {
     position: absolute;
     min-width: 100%;
     min-height: 55px;
     left: 0px;
     top: 0px;
-  }
-  .logo_welbex {
-    display: none;
-  }
-  .part1 {
-    display: none;
-  }
-  .part2 {
-    display: none;
-  }
-  .vector1{
-    display: none;
-  }
-  .vector2 {
-    display: none;
-  }
-  .textCRM {
-    display: none;
-  }
-  .certificates {
-    display: none;
-  }
-  .phoneNumber1 {
-    display: none;
-  }
-  .telegram1 {
-    display: none;
-  }
-  .vector3 {
-    display: none;
-  }
-  .viber1 {
-    display: none;
-  }
-  .phone {
-    display: none;
-  }
-  .whatsapp1 {
-    display: none;
-  }
-  .vector4 {
-    display: none;
   }
   .menuImportant {
     /* display: none; */
@@ -167,7 +128,183 @@ body {
     text-transform: uppercase;
     color: #E4E5EA;  
   }
+  .logo_welbex {
+    display: none;
+  }
+  .part1 {
+    display: none;
+  }
+  .part2 {
+    display: none;
+  }
+  .vector1{
+    display: none;
+  }
+  .vector2 {
+    display: none;
+  }
+  .textCRM {
+    display: none;
+  }
+  .certificates {
+    display: none;
+  }
+  .phoneNumber1 {
+    display: none;
+  }
+  .telegram1 {
+    display: none;
+  }
+  .vector3 {
+    display: none;
+  }
+  .viber1 {
+    display: none;
+  }
+  .phone {
+    display: none;
+  }
+  .whatsapp1 {
+    display: none;
+  }
+  .vector4 {
+    display: none;
+  }
+  .pageElem1 {
+    display: none;
+  }
+  .pageElem2 {
+    display: none;
+  }
+  .img1 {
+    display: none;
+  }
+  .pageElem3 {
+    display: none;
+  }
+  .pageElem4 {
+    display: none;
+  }
+  .img2 {
+    display: none;
+  }
+  .pageElem5 {
+    display: none;
+  }
+  .pageElem6 {
+    display: none;
+  }
+  .pageElem7 {
+    display: none;
+  }
+  .pageElem8 {
+    display: none;
+  }
+  .pageElem9 {
+    display: none;
+  }
+  .pageElem10 {
+    display: none;
+  }
+  .pageElem11 {
+    display: none;
+  }
+  .pageElem12 {
+    display: none;
+  }
+  .btn1 {
+    display: none;
+  }
+  button {
+    display: none;
+  }
+  .ball1 {
+    display: none;
+  }
+  .ball2 {
+    display: none;
+  }
+  .ball3 {
+    display: none;
+  }
+  .light1 {
+    display: none;
+  }
+  .light2 {
+    display: none;
+  }
+  /* --------------------FOOTER------------------------------------------------------------------------------------------- */
+  .footer {
+    display: none;
+  }
+  .footerElem1 {
+    display: none;
+  }
+  .footerElem2 {
+    display: none;
+  }
+  .footerElem3 {
+    display: none;
+  }
+  .footerElem4 {
+    display: none;
+  }
+  .footerElem5 {
+    display: none;
+    }
+  .footerElem6 {
+    display: none;
+    }
+  .footerElem7 {
+    display: none;
+    }
+  .footerElem8 {
+    display: none;
+    }
+  .footerElem9 {
+    display: none;
+    }
+  .footerElem10 {
+    display: none;
+    }
+  .footerElem11 {
+    display: none;
+    }
+  .footerElem12 {
+    display: none;
+    }
+  .footerElem13 {
+    display: none;
+    }
+  .footerElem14 {
+    display: none;
+    }
+  .footerElem15 {
+    display: none;
+  }
+  .phoneNumber2 {
+    display: none;
+  }
+  .telegram2 {
+    display: none;
+  }
+  .viber2 {
+    display: none;
+    }
+  .whatsapp2 {
+    display: none;
+    }
+  .footerElem16 {
+    display: none;
+  }
+  .link1 {
+    display: none;
+  }
+  .link2 {
+    display: none;
+  }
 }
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
 .logo_welbex {
   position: absolute;
   width: calc(140 / 1140 * 100%);
@@ -369,16 +506,16 @@ body {
 }
 .pageElem3 {
   position: absolute;
-width: calc(275/1440*100%);
-height: calc(44/980*100%);
-left: calc(148/1440*100%);
-top: calc(413/980*100%);
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-color: #E4E5EA;
+  width: calc(275/1440*100%);
+  height: calc(44/980*100%);
+  left: calc(148/1440*100%);
+  top: calc(413/980*100%);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #E4E5EA;
 }
 .pageElem4 {
   position: absolute;
@@ -395,6 +532,7 @@ color: #E4E5EA;
 }
 .img2 {
   margin: 0.5px 0px 0px 16px;
+  max-width: 100%;
 }
 .pageElem5 {
   position: absolute;
